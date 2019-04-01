@@ -32,7 +32,6 @@ int main()
  int time=0,ex=0;
 for(i=0;i<n;i++)
   {
-   /* for loop for setting up status....it will put all process to ready queue whose arrival_time < time(0) */
    for(j=i;j<n;j++)
     if(at[j]<=time)
      status[j]=1;
